@@ -22,9 +22,11 @@ const credentials = {
 
 To get the API keys, you need to [apply for a Twitter Developer account](https://developer.twitter.com/en/apply-for-access). It's free and take ~5 minutes.
 
-Lastly, change the default banner `1500x500.png` (unless you want to use mine, which is fine). Make sure it's a `png` (as in the mimetype, not just the file extension).
+Lastly, change the default banner `1500x500.png` or use the default one here. Make sure it's a `png` (as in the mimetype, not just the file extension).
 
 ![](https://github.com/trungdq88/real-time-twitter-banner/blob/master/1500x500.png)
+
+_PS: would be nice if you could leave the credit :P_
 
 ## Run the script
 
