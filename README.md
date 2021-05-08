@@ -32,7 +32,7 @@ Just read the code 😅. In short:
 
 1. Fetch your replies using Twitter API. (Rate limit: 180 requests per 15 mins)
 2. Filter the emojis from the text (not easy as it seems).
-3. Slap the emojis into the default banner.
+3. Slap the emojis into the default banner (emoji images provided by [twemoji](https://github.com/twitter/twemoji)).
 4. Update your profile banner using Twitter API. (Rate limit: 30 requests per 15 mins)
 
 ## Run the script
