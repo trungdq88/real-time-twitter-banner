@@ -39,11 +39,13 @@ npm install
 
 Note: if you are using an M1 MacBook, the image processing dependency may fail to install. Use another laptop or run it on a server.
 
+Start the app:
+
 ```
 node emojiheader.js
 ```
 
-Just keep in running and have fun!
+Keep it running and have fun!
 
 ## How the script works
 
