@@ -35,6 +35,10 @@ Just read the code 😅. In short:
 3. Slap the emojis into the default banner (emoji images provided by [twemoji](https://github.com/twitter/twemoji)).
 4. Update your profile banner using Twitter API. (Rate limit: 30 requests per 15 mins)
 
+The script fetch new replies every 6 seconds (to avoid rate limit), then update the banner only if there are new emojis.
+
+The delay between reply and banner update is between 6s to 15s.
+
 ## Run the script
 
 ```
