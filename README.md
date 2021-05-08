@@ -41,6 +41,17 @@ The delay between reply and banner update is between 6s to 15s.
 
 ## Run the script
 
+Install dependencies:
+```
+yarn
+```
+or
+```
+npm install
+```
+
+Note: if you are using an M1 MacBook, the image processing dependency may fail to install. Use another laptop or run it on a server.
+
 ```
 node emojiheader.js
 ```
