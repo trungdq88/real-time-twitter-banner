@@ -28,7 +28,7 @@ Lastly, change the default banner `1500x500.png` (unless you want to use mine, w
 
 ## How the script works
 
-Just read the code 😅. In short:
+[Read my thread here](https://twitter.com/tdinh_me/status/1391019332738576390). Summary:
 
 1. Fetch your replies using Twitter API. (Rate limit: 180 requests per 15 mins)
 2. Filter the emojis from the text (not easy as it seems).
