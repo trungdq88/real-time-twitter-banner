@@ -26,19 +26,6 @@ Lastly, change the default banner `1500x500.png` (unless you want to use mine, w
 
 ![](https://github.com/trungdq88/real-time-twitter-banner/blob/master/1500x500.png)
 
-## How the script works
-
-[Read my thread here](https://twitter.com/tdinh_me/status/1391019332738576390). Summary:
-
-1. Fetch your replies using Twitter API. (Rate limit: 180 requests per 15 mins)
-2. Filter the emojis from the text (not easy as it seems).
-3. Slap the emojis into the default banner (emoji images provided by [twemoji](https://github.com/twitter/twemoji)).
-4. Update your profile banner using Twitter API. (Rate limit: 30 requests per 15 mins)
-
-The script fetch new replies every 6 seconds (to avoid rate limit), then update the banner only if there are new emojis.
-
-The delay between reply and banner update is between 6s to 15s.
-
 ## Run the script
 
 Install dependencies:
@@ -57,6 +44,19 @@ node emojiheader.js
 ```
 
 Just keep in running and have fun!
+
+## How the script works
+
+[Read my thread here](https://twitter.com/tdinh_me/status/1391019332738576390). Summary:
+
+1. Fetch your replies using Twitter API. (Rate limit: 180 requests per 15 mins)
+2. Filter the emojis from the text (not easy as it seems).
+3. Slap the emojis into the default banner (emoji images provided by [twemoji](https://github.com/twitter/twemoji)).
+4. Update your profile banner using Twitter API. (Rate limit: 30 requests per 15 mins)
+
+The script fetch new replies every 6 seconds (to avoid rate limit), then update the banner only if there are new emojis.
+
+The delay between reply and banner update is between 6s to 15s.
 
 ## Most importantly
 
